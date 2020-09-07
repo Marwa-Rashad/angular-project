@@ -1,2 +1,2 @@
 # angular-project
-An Angular 9, Bootstrap 4, JQuery, and SASS responsive website that uses NYT Books API.
+An Angular 9, Bootstrap 4, JQuery, and Sass responsive website that uses NYT Books API.

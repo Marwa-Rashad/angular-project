@@ -127,8 +127,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./navbar/navbar.component */ "./src/app/navbar/navbar.component.ts");
 /* harmony import */ var _genres_genres_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./genres/genres.component */ "./src/app/genres/genres.component.ts");
 /* harmony import */ var _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./not-found/not-found.component */ "./src/app/not-found/not-found.component.ts");
-/* harmony import */ var _genre_details_genre_details_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./genre-details/genre-details.component */ "./src/app/genre-details/genre-details.component.ts");
-
 
 
 
@@ -153,8 +151,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _footer_footer_component__WEBPACK_IMPORTED_MODULE_6__["FooterComponent"],
         _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_7__["NavbarComponent"],
         _genres_genres_component__WEBPACK_IMPORTED_MODULE_8__["GenresComponent"],
-        _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_9__["NotFoundComponent"],
-        _genre_details_genre_details_component__WEBPACK_IMPORTED_MODULE_10__["GenreDetailsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_9__["NotFoundComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
         _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
@@ -167,7 +164,6 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_7__["NavbarComponent"],
                     _genres_genres_component__WEBPACK_IMPORTED_MODULE_8__["GenresComponent"],
                     _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_9__["NotFoundComponent"],
-                    _genre_details_genre_details_component__WEBPACK_IMPORTED_MODULE_10__["GenreDetailsComponent"],
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -227,42 +223,6 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
                 selector: 'app-footer',
                 templateUrl: './footer.component.html',
                 styleUrls: ['./footer.component.scss']
-            }]
-    }], function () { return []; }, null); })();
-
-
-/***/ }),
-
-/***/ "./src/app/genre-details/genre-details.component.ts":
-/*!**********************************************************!*\
-  !*** ./src/app/genre-details/genre-details.component.ts ***!
-  \**********************************************************/
-/*! exports provided: GenreDetailsComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GenreDetailsComponent", function() { return GenreDetailsComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-
-
-class GenreDetailsComponent {
-    constructor() { }
-    ngOnInit() {
-    }
-}
-GenreDetailsComponent.ɵfac = function GenreDetailsComponent_Factory(t) { return new (t || GenreDetailsComponent)(); };
-GenreDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: GenreDetailsComponent, selectors: [["app-genre-details"]], decls: 2, vars: 0, template: function GenreDetailsComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "genre-details works!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2dlbnJlLWRldGFpbHMvZ2VucmUtZGV0YWlscy5jb21wb25lbnQuc2NzcyJ9 */"] });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](GenreDetailsComponent, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
-        args: [{
-                selector: 'app-genre-details',
-                templateUrl: './genre-details.component.html',
-                styleUrls: ['./genre-details.component.scss']
             }]
     }], function () { return []; }, null); })();
 

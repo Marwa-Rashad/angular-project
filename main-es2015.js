@@ -332,7 +332,7 @@ class GenresComponent {
     ngOnInit() {
         jquery__WEBPACK_IMPORTED_MODULE_1__(document).ready(function () {
             jquery__WEBPACK_IMPORTED_MODULE_1__('ul').on('click', 'li a', function () {
-                jquery__WEBPACK_IMPORTED_MODULE_1__("html, body").animate({ scrollTop: 0 }, 500);
+                jquery__WEBPACK_IMPORTED_MODULE_1__("html, body").animate({ scrollTop: 0 }, 1000);
             });
             this.navWidth = jquery__WEBPACK_IMPORTED_MODULE_1__("#scrollbar").outerWidth(true);
             jquery__WEBPACK_IMPORTED_MODULE_1__("#books").css("margin-left", this.navWidth + "px");

@@ -256,7 +256,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function GenresComponent_div_14_Template(rf, ctx) { if (rf & 1) {
+function GenresComponent_div_16_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
@@ -337,61 +337,63 @@ class GenresComponent {
                 this.navWidth = jquery__WEBPACK_IMPORTED_MODULE_1__("#scrollbar").outerWidth(true);
                 jquery__WEBPACK_IMPORTED_MODULE_1__("#scrollbar").animate({ left: `-${this.navWidth}px` }, 1000);
                 jquery__WEBPACK_IMPORTED_MODULE_1__("#books").animate({ marginLeft: `0` }, 1000);
+                jquery__WEBPACK_IMPORTED_MODULE_1__("#close").animate({ opacity: 0 }, 1000);
                 jquery__WEBPACK_IMPORTED_MODULE_1__("#bars").animate({ opacity: 1 }, 1050);
             });
             jquery__WEBPACK_IMPORTED_MODULE_1__("#bars").click(function () {
                 this.navWidth = jquery__WEBPACK_IMPORTED_MODULE_1__("#scrollbar").outerWidth(true);
                 jquery__WEBPACK_IMPORTED_MODULE_1__("#scrollbar").animate({ left: 0 }, 1000);
                 jquery__WEBPACK_IMPORTED_MODULE_1__("#books").animate({ marginLeft: this.navWidth + "px" }, 1000);
+                jquery__WEBPACK_IMPORTED_MODULE_1__("#close").animate({ opacity: 1 }, 1050);
                 jquery__WEBPACK_IMPORTED_MODULE_1__("#bars").animate({ opacity: 0 }, 500);
             });
         });
     }
 }
 GenresComponent.ɵfac = function GenresComponent_Factory(t) { return new (t || GenresComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_service_service__WEBPACK_IMPORTED_MODULE_2__["ServiceService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"])); };
-GenresComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: GenresComponent, selectors: [["app-genres"]], decls: 20, vars: 3, consts: [[1, "navbar", "navbar-expand-lg", "navbar-light", "text-center", "container-fluid"], ["id", "bars", 1, "p-2", "mb-2"], [1, "fas", "fa-bars", "fa-2x", "txt-brown", "position-fixed"], ["routerLink", "/home", 1, "navbar-brand"], [1, "container-fluid", "position-relative"], ["id", "content", 1, "row", "justify-content-center"], ["id", "books", 1, "col-8", "text-center"], ["id", "allbooks", 1, "container-fluid"], [1, "books", "text-center", "p-1", "shadow", "mb-2"], [1, "mb-3", "p-2"], [1, "container-fluid"], [1, "row", "align-items-center", "justify-content-center", "p-2"], ["class", " mb-2 position-relative item rounded col-lg-8 col-12 p-3 bg-peige ", 4, "ngFor", "ngForOf"], ["id", "scrollbar", 1, "bg-peige", "vh-100", "shadow", "position-fixed"], [1, "list-unstyled", "text-center", "p-2"], ["id", "close", 1, "p-2", "mb-2"], [1, "far", "fa-window-close", "fa-2x", "txt-brown", "position-relative"], ["class", "py-3 px-2 shadow-lg mb-1", 4, "ngFor", "ngForOf"], [1, "mb-2", "position-relative", "item", "rounded", "col-lg-8", "col-12", "p-3", "bg-peige"], ["id", "rank", 1, "position-absolute", "txt-brown"], [1, "row", "justify-content-center", "align-items-center"], [1, "col-lg-4", "col-8"], ["alt", "", 1, "w-100", 3, "src"], [1, "col-lg-8", "col-12", "d-flex", "flex-column", "justify-content-center", "text-center"], [1, "txt-brown", "py-2"], [1, "txt-red", "py-2"], [1, "py-2"], ["target", "_blank", 1, "rounded", "text-decoration-none", "p-1", "bg-orange", 3, "href"], [1, "py-3", "px-2", "shadow-lg", "mb-1"], [1, "text-decoration-none", 3, "routerLink"]], template: function GenresComponent_Template(rf, ctx) { if (rf & 1) {
+GenresComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: GenresComponent, selectors: [["app-genres"]], decls: 20, vars: 3, consts: [[1, "navbar", "navbar-expand-lg", "navbar-light", "text-center", "container-fluid"], ["id", "bars", 1, "p-2", "mb-2", "position-fixed"], [1, "fas", "fa-bars", "fa-2x", "txt-brown"], ["id", "close", 1, "p-2", "mb-2", "position-fixed"], [1, "far", "fa-window-close", "fa-2x", "txt-brown"], ["routerLink", "/home", 1, "navbar-brand", "mr-3"], [1, "container-fluid", "overflow-hidden"], ["id", "content", 1, "row", "justify-content-center"], ["id", "books", 1, "col-8", "text-center"], ["id", "allbooks", 1, "container-fluid"], [1, "books", "text-center", "p-1", "shadow", "mb-2"], [1, "mb-3", "p-2"], [1, "container-fluid"], [1, "row", "align-items-center", "justify-content-center", "p-2"], ["class", " mb-2 position-relative item rounded col-lg-8 col-12 p-3 bg-peige ", 4, "ngFor", "ngForOf"], ["id", "scrollbar", 1, "bg-peige", "vh-100", "shadow", "position-fixed"], [1, "list-unstyled", "text-center", "p-2"], ["class", "py-3 px-2 shadow-lg mb-1", 4, "ngFor", "ngForOf"], [1, "mb-2", "position-relative", "item", "rounded", "col-lg-8", "col-12", "p-3", "bg-peige"], ["id", "rank", 1, "position-absolute", "txt-brown"], [1, "row", "justify-content-center", "align-items-center"], [1, "col-lg-4", "col-8"], ["alt", "", 1, "w-100", 3, "src"], [1, "col-lg-8", "col-12", "d-flex", "flex-column", "justify-content-center", "text-center"], [1, "txt-brown", "py-2"], [1, "txt-red", "py-2"], [1, "py-2"], ["target", "_blank", 1, "rounded", "text-decoration-none", "p-1", "bg-orange", 3, "href"], [1, "py-3", "px-2", "shadow-lg", "mb-1"], [1, "text-decoration-none", 3, "routerLink"]], template: function GenresComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "button", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "i", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "a", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "NYT Books Best Sellers");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "button", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "i", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "NYT Books Best Sellers");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "h2", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "h2", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, GenresComponent_div_14_Template, 15, 6, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "ul", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "button", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "i", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, GenresComponent_div_16_Template, 15, 6, "div", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "ul", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](19, GenresComponent_li_19_Template, 3, 6, "li", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.listName);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.listData);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.lists);
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"]], styles: [".navbar-brand[_ngcontent-%COMP%] {\n  margin: 0 auto;\n}\n\nbutton[_ngcontent-%COMP%] {\n  border: none !important;\n  background-color: inherit !important;\n}\n\n#genreNav[_ngcontent-%COMP%] {\n  top: 0;\n  z-index: 9;\n}\n\n#bars[_ngcontent-%COMP%] {\n  top: 0;\n  z-index: 6;\n  opacity: 0;\n}\n\n#close[_ngcontent-%COMP%] {\n  top: 0;\n  left: 0;\n  right: 0;\n}\n\n#content[_ngcontent-%COMP%] {\n  transition: all 1s ease;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2VucmVzL0Q6XFxSb3V0ZSAyMDIwXFxhbmd1bGFyUHJvamVjdC9zcmNcXGFwcFxcZ2VucmVzXFxnZW5yZXMuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2dlbnJlcy9nZW5yZXMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxjQUFBO0FDQ0o7O0FERUE7RUFHSSx1QkFBQTtFQUNBLG9DQUFBO0FDREo7O0FET0E7RUFDSSxNQUFBO0VBQ0EsVUFBQTtBQ0pKOztBRE9BO0VBQ0ksTUFBQTtFQUNBLFVBQUE7RUFDQSxVQUFBO0FDSko7O0FET0E7RUFDSSxNQUFBO0VBQ0EsT0FBQTtFQUNBLFFBQUE7QUNKSjs7QURNQTtFQUlJLHVCQUFBO0FDSEoiLCJmaWxlIjoic3JjL2FwcC9nZW5yZXMvZ2VucmVzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdmJhci1icmFuZCB7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxufVxyXG5cclxuYnV0dG9uIHtcclxuXHJcblxyXG4gICAgYm9yZGVyOiBub25lIWltcG9ydGFudDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGluaGVyaXQhaW1wb3J0YW50O1xyXG59XHJcblxyXG5cclxuXHJcblxyXG4jZ2VucmVOYXYge1xyXG4gICAgdG9wOiAwO1xyXG4gICAgei1pbmRleDogOTtcclxufVxyXG5cclxuI2JhcnMge1xyXG4gICAgdG9wOiAwO1xyXG4gICAgei1pbmRleDogNjtcclxuICAgIG9wYWNpdHk6IDA7XHJcbn1cclxuXHJcbiNjbG9zZSB7XHJcbiAgICB0b3A6IDA7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgcmlnaHQ6IDA7XHJcbn1cclxuI2NvbnRlbnR7XHJcbiAgICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAxcyBlYXNlO1xyXG4gICAgLW1vei10cmFuc2l0aW9uOiBhbGwgMXMgZWFzZTtcclxuICAgIC1vLXRyYW5zaXRpb246IGFsbCAxcyBlYXNlO1xyXG4gICAgdHJhbnNpdGlvbjogYWxsIDFzIGVhc2U7XHJcbn0iLCIubmF2YmFyLWJyYW5kIHtcbiAgbWFyZ2luOiAwIGF1dG87XG59XG5cbmJ1dHRvbiB7XG4gIGJvcmRlcjogbm9uZSAhaW1wb3J0YW50O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBpbmhlcml0ICFpbXBvcnRhbnQ7XG59XG5cbiNnZW5yZU5hdiB7XG4gIHRvcDogMDtcbiAgei1pbmRleDogOTtcbn1cblxuI2JhcnMge1xuICB0b3A6IDA7XG4gIHotaW5kZXg6IDY7XG4gIG9wYWNpdHk6IDA7XG59XG5cbiNjbG9zZSB7XG4gIHRvcDogMDtcbiAgbGVmdDogMDtcbiAgcmlnaHQ6IDA7XG59XG5cbiNjb250ZW50IHtcbiAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMXMgZWFzZTtcbiAgLW1vei10cmFuc2l0aW9uOiBhbGwgMXMgZWFzZTtcbiAgLW8tdHJhbnNpdGlvbjogYWxsIDFzIGVhc2U7XG4gIHRyYW5zaXRpb246IGFsbCAxcyBlYXNlO1xufSJdfQ== */"] });
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"]], styles: [".navbar-brand[_ngcontent-%COMP%] {\n  margin: 0 auto;\n}\n\nbutton[_ngcontent-%COMP%] {\n  border: none !important;\n  background-color: inherit !important;\n}\n\n#genreNav[_ngcontent-%COMP%] {\n  top: 0;\n  z-index: 3;\n}\n\n#bars[_ngcontent-%COMP%] {\n  top: 0;\n  z-index: 6;\n  opacity: 0;\n}\n\n#close[_ngcontent-%COMP%] {\n  top: 0;\n  left: 36%;\n  z-index: 7;\n}\n\n#content[_ngcontent-%COMP%] {\n  transition: all 1s ease;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZ2VucmVzL0Q6XFxSb3V0ZSAyMDIwXFxhbmd1bGFyUHJvamVjdC9zcmNcXGFwcFxcZ2VucmVzXFxnZW5yZXMuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2dlbnJlcy9nZW5yZXMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxjQUFBO0FDQ0o7O0FERUE7RUFHSSx1QkFBQTtFQUNBLG9DQUFBO0FDREo7O0FET0E7RUFDSSxNQUFBO0VBQ0EsVUFBQTtBQ0pKOztBRE9BO0VBQ0ksTUFBQTtFQUNBLFVBQUE7RUFDQSxVQUFBO0FDSko7O0FET0E7RUFDSSxNQUFBO0VBQ0EsU0FBQTtFQUNBLFVBQUE7QUNKSjs7QURNQTtFQUlJLHVCQUFBO0FDSEoiLCJmaWxlIjoic3JjL2FwcC9nZW5yZXMvZ2VucmVzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdmJhci1icmFuZCB7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxufVxyXG5cclxuYnV0dG9uIHtcclxuXHJcblxyXG4gICAgYm9yZGVyOiBub25lIWltcG9ydGFudDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGluaGVyaXQhaW1wb3J0YW50O1xyXG59XHJcblxyXG5cclxuXHJcblxyXG4jZ2VucmVOYXYge1xyXG4gICAgdG9wOiAwO1xyXG4gICAgei1pbmRleDogMztcclxufVxyXG5cclxuI2JhcnMge1xyXG4gICAgdG9wOiAwO1xyXG4gICAgei1pbmRleDogNjtcclxuICAgIG9wYWNpdHk6IDA7XHJcbn1cclxuXHJcbiNjbG9zZSB7XHJcbiAgICB0b3A6IDA7XHJcbiAgICBsZWZ0OiAzNiU7XHJcbiAgICB6LWluZGV4OiA3O1xyXG59XHJcbiNjb250ZW50e1xyXG4gICAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMXMgZWFzZTtcclxuICAgIC1tb3otdHJhbnNpdGlvbjogYWxsIDFzIGVhc2U7XHJcbiAgICAtby10cmFuc2l0aW9uOiBhbGwgMXMgZWFzZTtcclxuICAgIHRyYW5zaXRpb246IGFsbCAxcyBlYXNlO1xyXG59IiwiLm5hdmJhci1icmFuZCB7XG4gIG1hcmdpbjogMCBhdXRvO1xufVxuXG5idXR0b24ge1xuICBib3JkZXI6IG5vbmUgIWltcG9ydGFudDtcbiAgYmFja2dyb3VuZC1jb2xvcjogaW5oZXJpdCAhaW1wb3J0YW50O1xufVxuXG4jZ2VucmVOYXYge1xuICB0b3A6IDA7XG4gIHotaW5kZXg6IDM7XG59XG5cbiNiYXJzIHtcbiAgdG9wOiAwO1xuICB6LWluZGV4OiA2O1xuICBvcGFjaXR5OiAwO1xufVxuXG4jY2xvc2Uge1xuICB0b3A6IDA7XG4gIGxlZnQ6IDM2JTtcbiAgei1pbmRleDogNztcbn1cblxuI2NvbnRlbnQge1xuICAtd2Via2l0LXRyYW5zaXRpb246IGFsbCAxcyBlYXNlO1xuICAtbW96LXRyYW5zaXRpb246IGFsbCAxcyBlYXNlO1xuICAtby10cmFuc2l0aW9uOiBhbGwgMXMgZWFzZTtcbiAgdHJhbnNpdGlvbjogYWxsIDFzIGVhc2U7XG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](GenresComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
